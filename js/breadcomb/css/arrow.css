@@ -1,0 +1,12 @@
+.breadcomb a{
+	font:400 13px/13px "helce65",arial;
+}
+.breadcomb a+a{
+	margin-left:350px;
+}
+.breadcomb .arrow{
+	background:url(arrow/progressive-arrow-inactive.png) 0 0 no-repeat;
+}
+.breadcomb .arrow.active{
+	background:url(arrow/progressive-arrow-active.png) 0 0 no-repeat;
+}

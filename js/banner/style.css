@@ -1,0 +1,40 @@
+.loading{
+	width:31px;height:31px;
+	background:url(img/loading.gif) 0 0 no-repeat;
+	position:absolute;
+	top:50%;margin-top:-16px;
+	left:50%;margin-left:-16px;
+}
+.nav-left{
+	width:57px;height:47px;
+	background:url(img/btnPrevious.png) 0 0 no-repeat;
+	position:absolute;
+	top:50%;margin-top:23px;
+	left:0px;
+}
+.nav-right{
+	width:57px;height:47px;
+	background:url(img/btnNext.png) 0 0 no-repeat;
+	position:absolute;
+	top:50%;margin-top:23px;
+	right:0px;
+}
+.indicator{
+	width:100%;
+	height:15px;
+	position:absolute;
+	bottom:20px;
+	text-align:center;
+}
+.indicator a{
+	width:15px;
+	height:15px;
+	background:url(img/indicator.png) 0 0 no-repeat;
+	display:inline-block;	
+}
+.indicator a+a{
+	margin-left:10px;
+}
+.indicator a.current{
+	background:url(img/indicator-current.png) 0 0 no-repeat;
+}

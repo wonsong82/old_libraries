@@ -1,0 +1,15 @@
+.alert{
+	width:auto;
+	height:auto;
+	padding:30px 50px;
+	border:20px solid #ccc;
+	background:#fff;
+	color:#000;
+	text-align:center;
+	font:bold 14px/18px arial;
+	-webkit-box-shadow: 5px 5px 20px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    5px 5px 20px rgba(50, 50, 50, 0.5);
+	box-shadow:         5px 5px 20px rgba(50, 50, 50, 0.5);
+	top:40%;
+	left:50%;
+}

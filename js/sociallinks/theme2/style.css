@@ -1,0 +1,45 @@
+.sociallink{
+
+	width:27px;
+
+	height:27px;
+
+	display:inline-block;
+
+	cursor:pointer;
+
+	text-indent:-10000px;
+
+}
+
+.sociallink:hover{
+
+	background-color:#ff41b2 !important;
+
+}
+
+.sociallink.facebook{
+
+	background:url(img/facebook.png) 0 0 no-repeat;
+
+}
+
+
+
+.sociallink.twitter{
+
+	background:url(img/twitter.png) 0 0 no-repeat;
+
+}
+
+.sociallink.youtube{
+
+	background:url(img/youtube.png) 0 0 no-repeat;
+
+}
+
+.sociallink.vimeo{
+
+	background:url(img/vimeo.png) 0 0 no-repeat;
+
+}

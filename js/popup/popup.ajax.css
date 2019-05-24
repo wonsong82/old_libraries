@@ -1,0 +1,47 @@
+.popup-nav-left{
+	/*
+	background:url(images/nav-left.png) left 50% no-repeat;
+	width:20%;
+	height:100%;
+	top:0;left:0;
+	*/
+	
+	/*
+	background:url(img/nav-left.png) 0 0 no-repeat;
+	left:15px; top:50%;
+	width:25px;height:38px;
+	margin-top:-19px;*/
+	width:20%;
+	height:100%;
+	top:0;left:0;
+}
+.popup-nav-left:hover{
+	background:url(img/nav-left.png) left 50% no-repeat;
+	
+}
+.popup-nav-right{
+	width:80%;
+	height:100%;
+	top:0;right:0;
+	/*
+	background:url(img/nav-right.png) 0 0 no-repeat;
+	right:15px; top:50%;
+	width:25px;height:38px;
+	margin-top:-19px;*/
+}
+.popup-nav-right:hover{
+	background:url(img/nav-right.png) right 50% no-repeat;	
+}
+.popup-nav-x{
+	background:url(img/nav-x.png) 0 0 no-repeat;
+	right:10px; top:10px;
+	width:14px;height:14px;
+	position:absolute;/* added for regular popup */
+}
+.popup-loading{
+	background:url(img/loading.gif) 0 0 no-repeat;
+	width:43px;height:11px;
+	left:50%;top:50%;
+	margin-left:-21px;margin-top:-5px;
+	position:absolute; /* added for regular popup */
+}
